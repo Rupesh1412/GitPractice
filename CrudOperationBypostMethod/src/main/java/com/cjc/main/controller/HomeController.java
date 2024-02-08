@@ -38,6 +38,9 @@ public class HomeController {
 			
 		Iterable list=hsi.displayAllData();
 		if(u.equals("admin")&&p.equals("admin")) {
+
+
+		System.out.print("git practice code...");
 		
 
 		return list;
