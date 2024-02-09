@@ -39,7 +39,9 @@ public class HomeController {
 		Iterable list=hsi.displayAllData();
 		if(u.equals("admin")&&p.equals("admin")) {
 		
+             
 
+                  System.out.println("This is the change");
 		return list;
 		}
 		else {
